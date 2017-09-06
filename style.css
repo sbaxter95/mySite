@@ -184,5 +184,26 @@ ul.bar-graph li#python {
 
 #menu {
 	margin-left: 250px;
-    margin-top: -25px;
+    margin-top: -5px;
+}
+
+#menu a:link {
+	color: black;
+}
+
+#menu a:visited {
+	color: #0d0d0d;
+}
+
+a:link {
+	color: white;
+}
+
+a:visited {
+	color: white;
+}
+
+#projects {
+	margin-left: 100px;
+	margin-right: 100px;
 }
