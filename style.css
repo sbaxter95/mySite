@@ -1,0 +1,188 @@
+body {
+    margin: 0 auto;
+    font-family: 'Space Mono', monospace;
+}
+
+#landing-page {
+	background-image: url("images/Astronaut.jpg");
+	background-repeat: no-repeat;
+    background-position: center; 
+    background-attachment: fixed;
+    background-size: cover;
+    height: 700px;
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: -100px;
+}
+
+h1 {
+	font-weight: 700;
+	color: white;
+	font-size: 5em;
+	position: absolute;
+	margin-bottom: 700px;
+}
+
+h3 {
+	color: white;
+	text-align: center;
+	padding-top: 650px;
+	vertical-align: bottom;
+	margin-left: 800px;
+}
+
+hr {
+	width: 35%;
+	border: 2px solid black;
+}
+
+#content {
+	padding-top: 10px;
+	display: inline-block;
+	width: 48%;
+}
+
+#photo {
+	display: inline-block;
+	width: 300px;
+	height: 400px;
+	margin-left: 125px;
+	vertical-align: top;
+	margin-top: 70px;
+	margin-bottom: 20px;
+}
+
+.profile {
+	border: solid 20px #1a1a1a;
+	border-radius: 50%;
+	width: 250px;
+	height: 300px;
+}
+
+#about-me {
+	margin-left: 65px;
+	margin-right: 65px;
+}
+
+ul {
+    list-style-image: url("images/planeticon.png");
+}
+
+.vertical-line {
+	border-left: medium black solid;
+	height: 450px;
+	display: inline-block;
+	margin-top: 50px;
+	margin-left: 70px;
+	margin-right: 2px;
+}
+
+.bar-graph {
+	list-style-image: url("images/Rocket.png");
+	width: 700px;
+}
+
+ul.bar-graph li {
+	height: 35px;
+	color: white;
+	text-align: left;
+	font-size: 14px;
+	line-height: 35px;
+	padding: 0 20px;
+	margin-bottom: 5px;
+	margin-left: 50px;
+}
+
+ul.bar-graph li#html {
+	background-color: black;
+	width: 100%;
+}
+
+ul.bar-graph li#css {
+	background-color: #0d0d0d;
+	width: 80%;
+}
+
+ul.bar-graph li#bootstrap {
+	background-color: #1a1a1a;
+	width: 90%;
+}
+
+ul.bar-graph li#javascript {
+	background-color: #262626;
+	width: 75%;
+}
+
+ul.bar-graph li#jquery {
+	background-color: #333333;
+	width: 80%;
+}
+
+ul.bar-graph li#bash {
+	background-color: #404040;
+	width: 90%;
+}
+
+ul.bar-graph li#git {
+	background-color: #4d4d4d;
+	width: 65%;
+}
+
+ul.bar-graph li#csharp {
+	background-color: #595959;
+	width: 50%;
+}
+
+ul.bar-graph li#python {
+	background-color: #666666;
+	width: 70%;
+}
+
+#skills {
+	margin-left: 100px;
+}
+
+#interests {
+	margin-left: 100px;
+}
+
+.interest-panel {
+	width: 20%;
+	height: 260px;
+	background-color: black;
+	display: inline-block;
+	margin-left: 25px;
+	margin-bottom: 50px;
+	color: white;
+}
+
+.interest-panel p {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.interest-panel h4 {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#contact {
+	background-color: #0d0d0d;
+	color: white;
+	height: 200px;
+}
+
+#contact p {
+	text-align: center;
+}
+
+.option {
+	display: inline-block;
+	margin-left: 25px;
+	font-size: 1.25em;
+}
+
+#menu {
+	margin-left: 250px;
+    margin-top: -25px;
+}
